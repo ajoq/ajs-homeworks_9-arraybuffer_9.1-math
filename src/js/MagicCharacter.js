@@ -1,10 +1,6 @@
 import Character from './Character';
 
 export default class MagicCharacter extends Character {
-  constructor(name) {
-    super(name);
-  }
-
   setStoned() {
     this.stoned = true;
   }
